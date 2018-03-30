@@ -1,9 +1,9 @@
 // scripts.js 
 
-var withMenuItemsClass = document.getElementsByClassName('button');
+var menu = document.getElementsByClassName('button');
 
-console.log(withMenuItemsClass);
+console.log(menu);
 
-for (var x = 0; x < withMenuItemsClass.length; x++) {
-    alert(withMenuItemsClass[x].innerText);
+for (var x = 0; x < menu.length; x++) {
+    alert(menu[x].innerText);
 }
